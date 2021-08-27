@@ -1,0 +1,80 @@
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.redes-sociais ul li{
+
+list-style-type:none;
+float: left;
+display: inline-block;
+margin: 20px;
+height: 30px;
+padding: 10px 5px;
+background-color:#898B8E;
+}
+
+.bg-imagem{
+  background-image: url(https://i.ytimg.com/vi/s1JAsmWBlFk/maxresdefault.jpg);
+  height: 50vw;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+
+.rodape{
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+
+
+#mensagem{
+  margin-left: 2px;
+}
+
+.botao{
+  border-radius: 2px !important;
+}
+
+
+
+#agenda td{
+  /* ajustando a largura das colunas para um valor equivalente a todos */
+  width: 14.29%;
+  height: 30px;
+}
+
+#agenda td.bg-info{
+  color:white;
+  background-color: rgb(123, 190, 235) !important;
+}
+
+
+#tel{
+  margin-left: 33px !important;
+}
+
+#email{
+  margin-left: -15px !important;
+}
+
+#inst{
+  margin-left: 100%;
+}
+
+.foto{
+  width: 300px;
+  margin-left: 100px;
+}
+
+
+.link-footer{
+  text-decoration: none;
+}
